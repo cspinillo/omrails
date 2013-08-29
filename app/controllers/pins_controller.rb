@@ -3,8 +3,9 @@ class PinsController < ApplicationController
   # GET /pins
   # GET /pins.json
   def index
-    @pins = Pin.all
+    #@pins = Pin.all
     #@pins = current_user.pins.all
+    @pins = Pin.order("created_at desc")
     
     respond_to do |format|
       format.html # index.html.erb

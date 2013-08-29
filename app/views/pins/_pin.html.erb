@@ -1,11 +1,11 @@
 <div class="box">
-<%= image_tag pin.image(:thumb) %>
-<p>
+<%= link_to (image_tag pin.image(:thumb)), pin %>
+<p class="description">
 	<%= pin.description %>
 </p>
 <p>
 	<strong>
-		<%= link_to 'Show', pin %>
+		Posted By <%= pin.user.name%>
 	</strong>
 </p>
 <% if current_user == pin.user %>
