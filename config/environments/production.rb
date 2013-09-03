@@ -67,6 +67,7 @@ Omrails::Application.configure do
 
   config.action_mailer.default_url_options = { :host => 'http://tranquil-forest-2146.herokuapp.com' }
 
+  # Use Amazon for Image Uploads
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
