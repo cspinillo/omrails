@@ -38,4 +38,13 @@ Omrails::Application.configure do
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
   Paperclip.options[:command_path] = "/usr/local/bin/"
+
+  config.paperclip_defaults = {
+  :storage => :s3,
+  :s3_credentials => {
+    :bucket => ENV['csonemorails'],
+    :access_key_id => ENV['AKIAJPVZGFHJW7NPCNTQ'],
+    :secret_access_key => ENV['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']
+    }
+  }
 end
