@@ -6,7 +6,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 3.4.2"
-gem 'aws_sdk'
+gem 'aws-sdk', '~> 1.5.7'
 gem 'certified'
 
 # Bundle edge Rails instead:
