@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     actionmailer (3.2.14)
       actionpack (= 3.2.14)
@@ -34,6 +34,7 @@ GEM
     bootstrap-sass (2.2.2.0)
       sass (~> 3.2)
     builder (3.0.4)
+    certified (0.1.1)
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.1)
@@ -66,8 +67,9 @@ GEM
     mime-types (1.23)
     multi_json (1.7.9)
     orm_adapter (0.4.0)
-    paperclip (3.5.1)
+    paperclip (3.4.2)
       activemodel (>= 3.0.0)
+      activerecord (>= 3.0.0)
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.0)
       mime-types
@@ -130,10 +132,11 @@ PLATFORMS
 DEPENDENCIES
   aws_sdk
   bootstrap-sass (~> 2.2.2.0)
+  certified
   coffee-rails (~> 3.2.1)
   devise
   jquery-rails
-  paperclip (~> 3.0)
+  paperclip (~> 3.4.2)
   pg
   rails (= 3.2.14)
   sass-rails (~> 3.2.3)

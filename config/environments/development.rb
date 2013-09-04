@@ -41,10 +41,10 @@ Omrails::Application.configure do
 
   config.paperclip_defaults = {
   :storage => :s3,
+  :bucket => 'csonemorails',
   :s3_credentials => {
-    :bucket => ENV['csonemorails'],
-    :access_key_id => ENV['AKIAJPVZGFHJW7NPCNTQ'],
-    :secret_access_key => ENV['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']
+    :access_key_id => 'AKIAJPVZGFHJW7NPCNTQ',
+    :secret_access_key => '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'
     }
   }
 end

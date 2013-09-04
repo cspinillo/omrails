@@ -1,12 +1,13 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 ruby "1.9.3"
 gem 'rails', '3.2.14'
 gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
-gem "paperclip", "~> 3.0"
+gem "paperclip", "~> 3.4.2"
 gem 'aws_sdk'
+gem 'certified'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
