@@ -39,12 +39,4 @@ Omrails::Application.configure do
 
   Paperclip.options[:command_path] = "/usr/local/bin/"
 
-  config.paperclip_defaults = {
-  :storage => :s3,
-  :bucket => 'csonemorails',
-  :s3_credentials => {
-    :access_key_id => 'AKIAJPVZGFHJW7NPCNTQ',
-    :secret_access_key => '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'
-    }
-  }
 end
