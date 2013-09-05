@@ -8,6 +8,8 @@ gem 'simple_form'
 gem "paperclip", "~> 3.4.2"
 gem 'aws-sdk', '~> 1.5.7'
 gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
