@@ -16,3 +16,6 @@
 
 # Ignore Images Uploaded
 /public/system
+
+# gnore sample images
+/sampleimages
